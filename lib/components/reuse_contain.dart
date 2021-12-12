@@ -10,7 +10,8 @@ class ReuseContain extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
-      onTap: (){onPress;},
+      onTap: ()
+      {onPress;},
       child: Container(
         margin: EdgeInsets.all(10.0),
         child: cardChild,

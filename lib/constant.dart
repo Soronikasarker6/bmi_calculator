@@ -7,4 +7,13 @@ const kStyleText=  TextStyle(fontSize: 18.0,
     color: Color(0xFF5B5C6B));
 const kNumberTextStyle =TextStyle(
                 fontSize: 50.0,
-                fontWeight: FontWeight.w900,);
+                fontWeight: FontWeight.w900,
+                color: Color(0xFFFFFFFF));
+const kLargeNUmber = TextStyle(fontSize: 25.0,
+fontWeight: FontWeight.bold,
+color: Color(0xFFFFFFFF));
+const kTitleTextStle = TextStyle(fontSize: 30.0,
+fontWeight: FontWeight.bold, color: Color(0xFFFFFFFF));
+const kResult = TextStyle( fontSize: 25.0,
+fontWeight: FontWeight.bold, color: Colors.green);
+const kBodyTextStyle = TextStyle(fontSize: 20.0, fontWeight: FontWeight.w300, color: Colors.white);
